@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #E6E9FB;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+}
+
+/* write your CSS here */
+.container{
+  width: 1094px;
+  height: 432px;
+  border-radius: 16px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.title{
+  font-family: 'Merriweather', sans-serif ;
+  font-weight: 700;
+  color: #111827;
+  font-size: 40px;
+  width: 593px;
+  margin-bottom: 15px;
+}
+
+.sub-title{
+  text-align: center;
+  color: #374151;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  width: 871px;
+  margin-bottom: 25px;
+}
+
+.subscribe{
+  display: flex;
+  justify-content: space-between;
+  width: 808px;
+  margin-bottom: 15px;
+}
+
+.input-box{
+  width: 599px;
+  height: 72px;
+  border-radius: 8px;
+  background-color: #FAFAFF;
+  border: 1px solid #B3B8D8;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+}
+
+.btn-subscribe{
+  background-color: #111827;
+  color: #ffffff;
+  width: 185px;
+  height: 72px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.agree-checkbox{
+  display: flex;
+  justify-content: space-between;
+  width: 814px;
+}
+
+.checkbox{
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #B3B8D8;
+}
+
+.agree-checkbox p{
+  color: #111827;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
